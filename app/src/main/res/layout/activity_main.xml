@@ -11,7 +11,7 @@
     <View
         android:layout_width="350sp"
         android:layout_height="100sp"
-        android:background="@color/red"
+        android:background="@drawable/bordas_arredondas_inicial_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
@@ -23,19 +23,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="iCardápio/"
-        android:typeface="monospace"
         android:textColor="@color/white"
-        android:textSize="55sp"
+        android:textSize="60sp"
+        android:fontFamily="@font/lobster"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327" />
+        app:layout_constraintVertical_bias="0.328" />
 
     <View
         android:layout_width="150sp"
-        android:layout_height="85sp"
-        android:background="@color/red"
+        android:layout_height="65sp"
+        android:background="@drawable/bordas_arredondadas_inicial_botoes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.12"
@@ -59,8 +60,8 @@
 
     <View
         android:layout_width="150sp"
-        android:layout_height="85sp"
-        android:background="@color/red"
+        android:layout_height="65sp"
+        android:background="@drawable/bordas_arredondadas_inicial_botoes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.9"
