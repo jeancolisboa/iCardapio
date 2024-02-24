@@ -9,7 +9,7 @@
             android:shape="rectangle"> <!-- define o tipo de forma-->
 
             <stroke
-                android:color="@color/white"
+                android:color="@color/black"
                 android:dashWidth="2dp"
                 android:dashGap="0dp"
                 android:width="1dp"/> <!-- define a largura da linha-->
