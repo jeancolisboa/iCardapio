@@ -15,12 +15,12 @@ class MainActivity : AppCompatActivity() {
             dialog.show(supportFragmentManager,dialog.tag) //exibe o dialogo que declaramos
         }
 
-        findViewById<TextView>(R.id.signin).setOnClickListener{ // encontra o id do textview de cadastrar
+        findViewById<TextView>(R.id.signin).setOnClickListener{ // encontra o id do textview de entrar
             val intent = Intent(this,SignInOnApp :: class.java) //chama a activity da tela de cadastrar
             startActivity(intent) // comeca a activity
         }
 
-        findViewById<TextView>(R.id.signup).setOnClickListener{ // encontra o id do textview de entrar
+        findViewById<TextView>(R.id.signup).setOnClickListener{ // encontra o id do textview de cadastrar
             val intenttwo = Intent(this,SignUpOnApp :: class.java) //chama a activity da tela de entrar
             startActivity(intenttwo) // comeca a activity
         }

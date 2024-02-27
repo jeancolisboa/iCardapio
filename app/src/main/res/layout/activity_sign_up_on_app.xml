@@ -9,10 +9,49 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cadastrar-se"
+        android:text="Cadastre-se"
+        android:textSize="50dp"
+        android:textColor="@color/red"
+        android:fontFamily="@font/lobster"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:hint="Insira seu nome"
+        android:background="@drawable/rounded_edges_sign_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:hint="Insira sua senha"
+        android:inputType="number"
+        android:background="@drawable/rounded_edges_sign_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58"/>
+
+    <Button
+        android:id="@+id/button_sign_up"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:text="Cadastrar"
+        app:backgroundTint="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
