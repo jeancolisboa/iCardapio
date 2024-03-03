@@ -21,6 +21,7 @@
         app:layout_constraintVertical_bias="0.38"/>
     
     <EditText
+        android:id="@+id/campo_name"
         android:layout_width="350dp"
         android:layout_height="48dp"
         android:hint="Digite seu nome"
@@ -32,10 +33,11 @@
         app:layout_constraintVertical_bias="0.5"/>
 
     <EditText
+        android:id="@+id/campo_password"
         android:layout_width="350dp"
         android:layout_height="48dp"
         android:hint="Digite sua senha"
-        android:inputType="number"
+        android:inputType="textPassword"
         android:background="@drawable/rounded_edges_sign_in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
